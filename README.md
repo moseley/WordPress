@@ -39,9 +39,9 @@ ZZ
 cd /var/www/html
 rm -rf *
 cd ../
-mkdir staging
+sudo mkdir staging
 cd staging
-git clone https://github.com/moseley/wpelac.git .
+sudo git clone https://github.com/moseley/wpelac.git .
 sudo groupadd www
 sudo usermod -a -G www ec2-user
 exit
